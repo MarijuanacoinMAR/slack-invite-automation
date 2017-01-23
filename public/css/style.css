@@ -1,4 +1,5 @@
 /* Reset */
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,dfn,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
 
@@ -6,7 +7,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 html,body{
 margin:0;
 padding:0;
-font-family: 'Open Sans', sans-serif;
+font-family: 'Inconsolata';
 background: #fff url(../images/bg.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
@@ -36,11 +37,13 @@ float: left;
 .header{
 	margin-top: 160px;
 	margin-bottom: 40px;
+	background: url(../images/field.png) repeat;
+        border-radius: 30px;
 }
 
 
 h1{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Inconsolata';
 color: #fff;
 text-align: center;
 font-size: 50px;
@@ -98,7 +101,7 @@ width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
 font-style: italic;
-font-family: 'Lato', sans-serif;
+font-family: 'Inconsolata';
 font-size: 16px;
 color: #ffffff;
 padding: 15px;
@@ -132,7 +135,7 @@ padding: 3px 10px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 background: #ffffff;
 border: none;
-font-family: 'Lato', sans-serif;
+font-family: 'Inconsolata';
 font-size: 14px;
 font-weight: bold;
 cursor: pointer;
